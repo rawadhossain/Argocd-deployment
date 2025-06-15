@@ -24,4 +24,4 @@ kubectl port-forward svc/argocd-server -n argocd 8080:443
 kubectl logs -n argocd deployment/argocd-application-controller
 ```
 ## Agrocd automatically started pods based on the commits on manifest.yml
-![alt text](image/image-3.png)
+![alt text](image/image-4.png)
